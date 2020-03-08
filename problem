@@ -1,0 +1,4 @@
+1.加载beans.xml spring配置文件 new ClassPathXmlApplicationContext
+  报错 java.lang.noclassdeffounderror org/apache/commons/logging/logfactory
+
+  libs目录添加common-loggin-1.2.jar 解决
